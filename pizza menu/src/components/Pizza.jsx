@@ -1,12 +1,12 @@
-function Pizza() {
+function Pizza(props) {
   return (
     <div className="pizza-card">
-      <p className="pizza-title">Pepperoni Pizza</p>
-      <img
-        className="pizza-img"
-        src="src\assets\pexels-polina-tankilevitch-4109073.jpg"
-      />
-      <button className="pizza-button">Add to cart</button>
+      <p className="pizza-title">{props.name}</p>
+      <img className="pizza-img" src={props.img} />
+      <p>{props.description}</p>
+      <button className="pizza-button" id={props.id}>
+        Add to cart
+      </button>
     </div>
   );
 }
