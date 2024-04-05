@@ -1,0 +1,14 @@
+.title {
+  font-size: 4rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pizza-title {
+  font-size: 1.5rem;
+}
+
+.pizza-img {
+  width: 250px;
+}
