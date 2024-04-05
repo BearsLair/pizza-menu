@@ -1,3 +1,8 @@
+.pizza-card {
+  display: flex;
+  flex-direction: column;
+}
+
 .title {
   font-size: 4rem;
   display: flex;
@@ -5,10 +10,38 @@
   justify-content: center;
 }
 
+.pizza-card {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  width: 400px;
+}
+
+.pizza-card > button {
+  width: 150px;
+  font-size: 1.25rem;
+  background-color: rgba(253, 253, 62, 0.974);
+}
+
+.pizza-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 80px;
+}
+
 .pizza-title {
+  margin: 0px;
+  padding-bottom: 10px;
   font-size: 1.5rem;
 }
 
 .pizza-img {
-  width: 250px;
+  height: 270px;
+  padding: 10px 0px 10px 0px;
+}
+
+.pizza-button {
+  margin-top: 10px;
 }
